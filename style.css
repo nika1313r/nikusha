@@ -1,25 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-  
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url(nika.jpg);
+    background-image: url(https://th.bing.com/th/id/R.62c8c4eebb0492ea7c28e6ada4e19d72?rik=56HrzcMrXMBVsw&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f5a12ed70cf81e08b62ab9795%2ft%2f62293a7ec4e6906687db31e5%2f1646869118595%2fBANK-TECH-Digital.jpeg%3fformat%3d1500w&ehk=l12KI%2bCAdfe8NkbIa%2b9YT8PZcf1cBUIVOFMiqsCA9bw%3d&risl=&pid=ImgRaw&r=0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: hidden;
 }
 
 .header {
@@ -52,66 +42,12 @@ body {
 .element {
     text-decoration: none;
     font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: monospace;
     font-weight: 700;
     color: #FFF;
     transition: 0.3s;
 }
 
 .element:hover {
-    color: #2f00ff;
-}
-
-#section1 {
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section1 div  {
-    margin-bottom: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#section1 div h1 {
-    color: rgb(255, 0, 0);
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: 'Young Serif', serif;
-}
-
-#section2,
-#section3,
-#section4 {
-    width: 100vw;
-    height: 100vh;
-}
-
-#section2 {
-    background-color: #000000;
-    background-image: url(nika2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#section3 {
-    background-color: #ff0000;
-    background-image:url(nika3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#section4 {
-    background-color: #001aff;
-    background-image:url(nika4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: #008000;
 }
