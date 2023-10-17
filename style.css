@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(nika.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    background: #005f004b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 50px;
+}
+
+.nav-bar {
+    margin-right: 50px;
+}
+
+.list-container {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.element {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.element:hover {
+    color: #2f00ff;
+}
+
+#section1 {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 div  {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section1 div h1 {
+    color: rgb(255, 0, 0);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Young Serif', serif;
+}
+
+#section2,
+#section3,
+#section4 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#section2 {
+    background-color: #000000;
+    background-image: url(nika2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    background-color: #ff0000;
+    background-image:url(nika3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4 {
+    background-color: #001aff;
+    background-image:url(nika4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
